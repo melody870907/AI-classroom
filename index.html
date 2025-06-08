@@ -2,10 +2,10 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>AI快餐學堂系統｜登入</title>
+  <title>AI快餐學堂系統｜會員登入</title>
   <link rel="stylesheet" href="style.css">
-  <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-app.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
 </head>
 <body>
   <div class="container">
@@ -14,7 +14,7 @@
     <input type="password" id="password" placeholder="Password">
     <button onclick="login()">登入</button>
     <button onclick="signup()">註冊</button>
-    <p id="message"></p>
+    <p id="message" style="color: red; margin-top: 1em;"></p>
   </div>
   <script src="main.js"></script>
 </body>
